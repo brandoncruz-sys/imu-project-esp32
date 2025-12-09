@@ -1,0 +1,23 @@
+# --- PlatformIO (Si usas PIO) ---
+.pio
+.pioenvs
+.piolibdeps
+
+# --- ESP-IDF (Si usas el framework nativo) ---
+build/
+sdkconfig.old
+dependencies.lock
+
+# --- Compilación general ---
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+
+# --- Sistema e IDE ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
